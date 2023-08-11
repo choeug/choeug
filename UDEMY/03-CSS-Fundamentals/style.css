@@ -86,3 +86,27 @@ aside {
 body {
   /* background-color: forestgreen; */
 }
+
+.first-li {
+  /* font-weight: bold; */
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+li:nth-child(2) {
+  /* color: rosybrown;*/
+}
+
+li:nth-child(odd) {
+  /* color: turquoise; */
+}
+
+li:nth-child(even) {
+  /* color: peru; */
+}
