@@ -8,6 +8,23 @@ body {
   border-top: 10px solid #1098ad;
 }
 
+.main-header {
+  background-color: #f7f7f7;
+  /* padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px; */
+  /* 앞의 20px는 위,아래 / 40px는 왼쪽,오른쪽
+  여기서 20px 30px 40px 50px; 라고 작성할 경우 위,오른쪽,아래,왼쪽 순으로
+  적용된다. */
+  padding: 20px 40px;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
 h1,
 h2,
 h3 {
@@ -71,16 +88,6 @@ footer p {
 
 .related-posts {
   list-style: none;
-}
-
-.main-header {
-  background-color: #f7f7f7;
-}
-
-aside {
-  background-color: #f7f7f7;
-  border-top: 5px solid #1098ad;
-  border-bottom: 5px solid #1098ad;
 }
 
 body {

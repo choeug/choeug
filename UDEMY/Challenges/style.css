@@ -1,6 +1,6 @@
 body {
   font-family: helvetica;
-  line-height: 1.4;
+  line-height: 2;
 }
 /* PRODUCT */
 .product {
@@ -23,27 +23,31 @@ body {
   color: #777;
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 14px;
 }
-.more-information:link {
-  color: black;
-}
+.more-information:link,
 .more-information:visited {
   color: black;
 }
-.more-information:hover {
+/* .more-information:visited {
   color: black;
-  text-decoration: none;
-}
+} */
+.more-information:hover,
 .more-information:active {
   color: black;
   text-decoration: none;
 }
+/* .more-information:active {
+  color: black;
+  text-decoration: none;
+} */
 
 /* PRODCUT DETALILS */
 
 .product-details-title {
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 16px;
 }
 .li-style {
   list-style: square;
