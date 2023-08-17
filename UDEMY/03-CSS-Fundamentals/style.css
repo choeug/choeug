@@ -1,11 +1,20 @@
 * {
   /* border-top: 10px solid #555; */
+  margin: 0;
+  padding: 0;
 }
 
 body {
   color: #444;
   font-family: Helvetica;
   border-top: 10px solid #1098ad;
+}
+
+.container {
+  width: 700px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
 }
 
 .main-header {
@@ -17,12 +26,29 @@ body {
   여기서 20px 30px 40px 50px; 라고 작성할 경우 위,오른쪽,아래,왼쪽 순으로
   적용된다. */
   padding: 20px 40px;
+  margin-bottom: 60px;
+  height: 80px;
 }
 
+.post-header {
+  margin-bottom: 40px;
+}
+
+nav {
+  font-size: 18px;
+}
+
+article {
+  margin-bottom: 60px;
+}
 aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
+  padding: 50px 0;
+  width: 500px;
 }
 
 h1,
@@ -39,10 +65,13 @@ h1 {
 
 h2 {
   font-size: 40px;
+  margin-bottom: 30px;
 }
 
 h3 {
   font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 h4 {
@@ -54,10 +83,23 @@ h4 {
 p {
   font-size: 22px;
   line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 
 li {
   font-size: 20px;
+  margin-bottom: 10px;
+  list-style: square;
+}
+
+li:last-child {
+  margin-bottom: 0;
 }
 
 footer p {
@@ -146,6 +188,11 @@ a:active {
 
 /* LVHA */
 
+.post-img {
+  width: 100%;
+  height: auto;
+}
+
 /* Resolvin conglicts */
 /* #copyright {
   color: red;
@@ -167,7 +214,3 @@ footer p {
 nav p {
   font-size: 18px;
 } */
-
-nav {
-  font-size: 18px;
-}
