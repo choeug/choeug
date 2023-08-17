@@ -4,6 +4,8 @@
   padding: 0;
 }
 
+/* PAGE SECTIONS */
+
 body {
   color: #444;
   font-family: Helvetica;
@@ -15,6 +17,7 @@ body {
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
+  /* 중앙정렬할 때 사용하자! */
 }
 
 .main-header {
@@ -22,12 +25,12 @@ body {
   /* padding: 20px;
   padding-left: 40px;
   padding-right: 40px; */
-  /* 앞의 20px는 위,아래 / 40px는 왼쪽,오른쪽
+  /* padding 앞의 20px는 위,아래 / 40px는 왼쪽,오른쪽
   여기서 20px 30px 40px 50px; 라고 작성할 경우 위,오른쪽,아래,왼쪽 순으로
   적용된다. */
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
+  /* height: 80px; */
 }
 
 .post-header {
@@ -51,6 +54,7 @@ aside {
   width: 500px;
 }
 
+/* SMALL ELEMENTS */
 h1,
 h2,
 h3 {
@@ -84,6 +88,7 @@ p {
   font-size: 22px;
   line-height: 1.5;
   margin-bottom: 15px;
+  display: inline;
 }
 
 ul,
@@ -96,6 +101,7 @@ li {
   font-size: 20px;
   margin-bottom: 10px;
   list-style: square;
+  /* display: inline; */
 }
 
 li:last-child {
@@ -191,6 +197,20 @@ a:active {
 .post-img {
   width: 100%;
   height: auto;
+}
+
+nav a:link {
+  /* background-color: orangered;
+  margin: 20px;
+  padding: 20px;
+  display: block; */
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
 }
 
 /* Resolvin conglicts */
