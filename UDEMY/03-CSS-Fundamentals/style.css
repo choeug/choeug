@@ -10,6 +10,7 @@ body {
   color: #444;
   font-family: Helvetica;
   border-top: 10px solid #1098ad;
+  /* position: relative; */
 }
 
 .container {
@@ -18,6 +19,7 @@ body {
   margin-right: auto; */
   margin: 0 auto;
   /* 중앙정렬할 때 사용하자! */
+  /* position: relative; */
 }
 
 .main-header {
@@ -213,6 +215,15 @@ nav a:link:last-child {
   margin-right: 0;
 }
 
+button {
+  font-size: 20px;
+  padding: 15px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+
 /* Resolvin conglicts */
 /* #copyright {
   color: red;
@@ -234,3 +245,18 @@ footer p {
 nav p {
   font-size: 18px;
 } */
+/* position 
+1.relative
+자기 자신을 기준으로 왼쪽,오른쪽,위,아래로 위치를 변경할 수 있다.
+부모 태그에 relative를 적용하고 움직이면 고정된 상태로 전체적으로
+함께 움직인다.
+
+2.absolute
+부모태그 즉, 자신과 가장 가까운 상위 태그의 포지션이 relative일 때,
+그 태그를 기준으로 움직인다. 만약 static 상태이면 body에 적용될 것.
+겹치지 않고 떠 있는 상태로 있다.
+
+3.fixed
+최상위 태그(웹 전체면적)를 기준으로 움직이며, 타 상위 태그를 무시한다.
+스크롤을 무시하고 계속 화면에 노출된다.
+*/
