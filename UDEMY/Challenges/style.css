@@ -18,6 +18,7 @@ margin을 활용할 수 있다. */
   /* margin 00px auto; 를 실행할 경우 중심을 잡을 수 있다.
   위, 아래가 붙어있다면 0 auto;를 하면되지만, 결과물은 아래와 위가 간격이 있는 형태이므로 간격을 제시하며
   단위는 px를 사용하고 ,는 없어야한다. */
+  position: relative;
 }
 
 .product-title {
@@ -34,6 +35,7 @@ margin을 활용할 수 있다. */
 
 .price {
   font-size: 24px;
+  padding: 0;
 }
 .free-shipping-css {
   color: #777;
@@ -42,9 +44,26 @@ margin을 활용할 수 있다. */
   font-size: 12px;
   margin-bottom: 20px;
 }
+
+.sale {
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 3px 10px;
+  position: absolute;
+  letter-spacing: 2px; /*글자 사이 간격*/
+  top: -15px;
+  left: -25px;
+}
+
 .more-information:link,
 .more-information:visited {
   color: black;
+  margin-bottom: 30px;
+  display: inline-block;
 }
 /* .more-information:visited {
   color: black;
@@ -58,6 +77,31 @@ margin을 활용할 수 있다. */
   color: black;
   text-decoration: none;
 } */
+
+.color {
+  background-color: #000;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 0 0;
+}
+
+.color-blue {
+  background-color: #2f6ee2;
+}
+.color-red {
+  background-color: #ec2f2f;
+}
+.color-yellow {
+  background-color: #f0bf1e;
+}
+.color-green {
+  background-color: #90cc20;
+}
+.color-brown {
+  background-color: #885214;
+}
 
 /* PRODCUT DETALILS */
 
