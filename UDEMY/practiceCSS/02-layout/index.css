@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.box1 p:first-child {
+  background: red;
+}
+
+.box1 p:last-child {
+  background: blue;
+}
+
+.box1 p:nth-child(3) {
+  background: green;
+}
+
+.box1 p:nth-child(2n-1) {
+  background: black;
+}
+
+.box1 p:nth-child(2n) {
+  background: orange;
+}
+
+/* .hover span {
+  display: block;
+}
+
+.hover:hover {
+  background: blue;
+  color: black;
+} */
