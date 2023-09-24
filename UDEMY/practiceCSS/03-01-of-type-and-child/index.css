@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+.container p:first-child {
+  background: red;
+}
+/* 만약 h1태그 혹은 *전체 태그였다면 적용되었을 것. */
+
+.container p:first-of-type {
+  background: blue;
+}
+
+.container p:last-of-type {
+  background: yellow;
+}
+
+.container p:nth-of-type(2) {
+  background: green;
+}
+
+.container span:first-of-type {
+  font-weight: 600;
+  text-decoration: underline;
+}
