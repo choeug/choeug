@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  color: blue;
+  font-size: 38px;
+  /* 둘 다 상속이 가능한 속성 */
+  border: 4px solid orange;
+  /* 상속이 가능하지 않기 때문에 inner-box와 p에는 적용되지 않음. */
+}
+
+/* .inner-box,
+p {
+  border: 4px solid orange;
+} */
+
+.inner-box {
+  color: red;
+}
+/* 상속 속성이 겹쳤을 때 어떤 속성이 우선순위를 가지게 될까?
+ Cascading 이라는 규칙이 그 우선순위를 결정한다. */
