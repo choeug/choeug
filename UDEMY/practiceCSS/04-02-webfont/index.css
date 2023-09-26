@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
+.font1 {
+  font-family: "Do Hyeon", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");
+.font2 {
+  font-family: "Black Han Sans", sans-serif;
+}
+/* 한페이지에 div 혹은 class를 부여하여도 폰트 적용이 안되는 이유를 알아내야한다. */
